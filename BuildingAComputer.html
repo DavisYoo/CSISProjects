@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	background-color: lightgrey;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="file:///C:/Users/davis/Documents/ProjectCSS.css">
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="file:///C:/Users/davis/Documents/Home.html">Home</a></li>
+  <li><a href="file:///C:/Users/davis/Documents/Blog.html">Blog</a></li>
+  <li><a href="file:///C:/Users/davis/Documents/BuildingAComputer.html">Building A Computer</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Parts</a>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="#">CPU<br><img src="https://bomgar-bomgar12.netdna-ssl.com/images/avatars/uploads/cpu2.png" style="width:100px;height:100px;"></a>
+      <a href="#">Graphics Card<br><img src="http://cdn.1001freedownloads.com/vector/thumb/66676/PCI_video_card.png" style="width:100px;height:100px;"></a>
+      <a href="#">Memory<br><img src="https://openclipart.org/image/2400px/svg_to_png/195804/ram.png" style="width:85px;height:85px;"></a></a>
+	  <a href="#">Motherboard<br><img src="http://www.clipartlord.com/wp-content/uploads/2014/04/motherboard.png" style="width:80px;height:80px;"></a></a></a>
+	  <a href="#">Storage<br><img src="http://www.pd4pic.com/images/head-computer-drive-disk-cartoon-storage-hard.png" style="width:100px;height:100px;"></a></a></a></a>
+	  <a href="#">Tower<br><img src="http://www.pd4pic.com/images/tower-computer-server-cpu-processor-box-cartoon.png" style="width:80px;height:100px;"></a></a></a></a>
+	  <a href="#">Power Supply<br><img src="http://pics.clipartpng.com/Standard_Computer_Power_Supply_PNG_Clipart-774.png" style="width:100px;height:80px;"></a></a></a></a>
+    </div>
+  </li>
+</ul>
+
+<center><h3><i>Video</i></h3></center>
+<center><iframe width="960" height="540" src="https://www.youtube.com/embed/0bUghCx9iso" frameborder="0" allowfullscreen></iframe></center>
+<center><p><b>This is not my video.</b> Credit goes to <a href="http://easypcbuilder.com/">easypcbuilder</a></p></center>
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+</body>
+</html>
