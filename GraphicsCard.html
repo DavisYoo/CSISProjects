@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	background-image: url(http://docs.oracle.com/javafx/2/get_started/background.jpg);
+}
+</style>
+    <link rel="stylesheet" type="text/css" href="https://davisyoo.github.io/CSISProjects/ProjectCSS.css">   
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="https://davisyoo.github.io/CSISProjects/Home.html">Home</a></li>
+  <li><a href="https://davisyoo.github.io/CSISProjects/Blog.html">Blog</a></li>
+  <li><a href="https://davisyoo.github.io/CSISProjects/BuildingAComputer.html">Building A Computer</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Parts</a>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="#">CPU<br><img src="https://bomgar-bomgar12.netdna-ssl.com/images/avatars/uploads/cpu2.png" style="width:100px;height:100px;"></a>
+      <a href="#">Graphics Card<br><img src="http://cdn.1001freedownloads.com/vector/thumb/66676/PCI_video_card.png" style="width:100px;height:100px;"></a>
+      <a href="#">Memory<br><img src="https://openclipart.org/image/2400px/svg_to_png/195804/ram.png" style="width:85px;height:85px;"></a></a>
+	  <a href="#">Motherboard<br><img src="http://www.clipartlord.com/wp-content/uploads/2014/04/motherboard.png" style="width:80px;height:80px;"></a></a></a>
+	  <a href="#">Storage<br><img src="http://www.pd4pic.com/images/head-computer-drive-disk-cartoon-storage-hard.png" style="width:100px;height:100px;"></a></a></a></a>
+	  <a href="#">Tower<br><img src="http://www.pd4pic.com/images/tower-computer-server-cpu-processor-box-cartoon.png" style="width:80px;height:100px;"></a></a></a></a>
+	  <a href="#">Power Supply<br><img src="http://pics.clipartpng.com/Standard_Computer_Power_Supply_PNG_Clipart-774.png" style="width:100px;height:80px;"></a></a></a></a>
+    </div>
+  </li>
+</ul>
+
+<h2 align="center"><i>Graphics Cards</i></h2>
+
+<br>
+
+<div align="center" class="boxed">
+  <p><b>The GTX 1080 is the newest high end GPU from NVIDIA.</b></p>
+  <a href="https://www.amazon.com/EVGA-GeForce-Founders-Graphics-08G-P4-6180-KR/dp/B01FWI6F08/ref=sr_1_5?s=pc&ie=UTF8&qid=1476064679&sr=1-5&keywords=gtx+1080">
+<img src="https://cdn0.vox-cdn.com/uploads/chorus_asset/file/6491445/GeForce_GTX_1080_Front_1462593895.0.png" style="width:400px;height:200px;"></a>
+</div>
+
+<br>
+<br>
+
+<div align="center" class="boxed">
+  <p><b>The GTX 1070 is NVIDIA's slightly more affordable option that still packs a punch</b></p>
+  <a href="https://www.amazon.com/EVGA-GeForce-Founders-Graphics-08G-P4-6170-KR/dp/B01GLRX81I/ref=sr_1_13?s=pc&ie=UTF8&qid=1476064889&sr=1-13&keywords=gtx+1070">
+<img src="https://cdn0.vox-cdn.com/uploads/chorus_asset/file/6558997/GeForce_GTX_1070_3qtr_Front_Left_1464015929.0.png" style="width:400px;height:200px;"></a>
+</div>
+
+<br>
+<br>
+
+<div align="center" class="boxed">
+  <p><b>The RX 480 is AMD's newest card that is both powerful and affordable.</b></p>
+  <a href="https://www.amazon.com/Sapphire-Radeon-PCI-Express-Graphics-21260-00-20G/dp/B01GTYIEG2/ref=sr_1_5?s=pc&ie=UTF8&qid=1476064768&sr=1-5&keywords=amd+rx+480">
+<img src="http://blogs-images.forbes.com/jasonevangelho/files/2016/05/9310_ellesmere_cam1_02_0010_4K-1200x675.png" style="width:400px;height:200px;"></a>
+</div>
+
+<br>
+<br>
+
+<div align="center" class="boxed">
+  <p><b>The RX 470 is AMD's even cheaper version of the RX 480</b></p>
+  <a href="https://www.amazon.com/MSI-RADEON-470-GAMING-2Displayport/dp/B01JS9F9K4/ref=sr_1_1?s=pc&ie=UTF8&qid=1476065260&sr=1-1&keywords=amd+470">
+<img src="http://www.pcper.com/files/imagecache/article_max_width/news/2016-07-27/MSI%20Radeon%20RX%20480%20Gaming%20X%208GB.png" style="width:400px;height:200px;"></a>
+</div>
+
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+</body>
+</html>
