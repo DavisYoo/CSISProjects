@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	background-image: url(http://docs.oracle.com/javafx/2/get_started/background.jpg);
+}
+</style>
+    <link rel="stylesheet" type="text/css" href="https://davisyoo.github.io/CSISProjects/ProjectCSS.css">   
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="https://davisyoo.github.io/CSISProjects/Home.html">Home</a></li>
+  <li><a href="https://davisyoo.github.io/CSISProjects/BuildingAComputer.html">Building A Computer</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Parts</a>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="https://davisyoo.github.io/CSISProjects/CPU.html">CPU<br><img src="https://bomgar-bomgar12.netdna-ssl.com/images/avatars/uploads/cpu2.png" style="width:100px;height:100px;"></a>
+      <a href="https://davisyoo.github.io/CSISProjects/GraphicsCard.html">Graphics Card<br><img src="http://cdn.1001freedownloads.com/vector/thumb/66676/PCI_video_card.png" style="width:100px;height:100px;"></a>
+      <a href="https://davisyoo.github.io/CSISProjects/Memory.html">Memory<br><img src="https://openclipart.org/image/2400px/svg_to_png/195804/ram.png" style="width:85px;height:85px;"></a></a>
+	  <a href="https://davisyoo.github.io/CSISProjects/Motherboard.html">Motherboard<br><img src="http://www.clipartlord.com/wp-content/uploads/2014/04/motherboard.png" style="width:80px;height:80px;"></a></a></a>
+	  <a href="https://davisyoo.github.io/CSISProjects/Storage.html">Storage<br><img src="http://www.pd4pic.com/images/head-computer-drive-disk-cartoon-storage-hard.png" style="width:100px;height:100px;"></a></a></a></a>
+	  <a href="https://davisyoo.github.io/CSISProjects/Tower.html">Tower<br><img src="http://www.pd4pic.com/images/tower-computer-server-cpu-processor-box-cartoon.png" style="width:80px;height:100px;"></a></a></a></a>
+	  <a href="https://davisyoo.github.io/CSISProjects/PowerSupply.html">Power Supply<br><img src="http://pics.clipartpng.com/Standard_Computer_Power_Supply_PNG_Clipart-774.png" style="width:100px;height:80px;"></a></a></a></a>
+    </div>
+  </li>
+</ul>
+
+<h2 align="center"><i>Power Supply</i></h2>
+
+<br>
+
+<div align="center" class="boxed">
+  <p><b>EVGA 500 B1, 80+ BRONZE 500W Power Supply</b></p>
+  <a href="https://www.amazon.com/dp/B00DZ6R9GE/ref=twister_B01G69E69E?_encoding=UTF8&th=1">
+<img src="http://www.velocitymicro.com/images/upload/600WBronze.png" style="width:150px;height:220px;"></a>
+</div>
+
+<br>
+<br>
+
+<div align="center" class="boxed">
+  <p><b>EVGA SuperNOVA 650 G1, 80+ GOLD 650W, Fully Modular Power Supply</b></p>
+  <a href="https://www.amazon.com/EVGA-SuperNOVA-Modular-Warranty-120-G1-0650-XR/dp/B00K85X2AW/ref=sr_1_2?s=pc&ie=UTF8&qid=1476071016&sr=1-2&keywords=power+supply+modular">
+<img src="http://pipertech.ca/media/catalog/product/cache/2/image/9df78eab33525d08d6e5fb8d27136e95/1/2/120-g1-0650-xr-1.png" style="width:220px;height:220px;"></a>
+</div>
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+</body>
+</html>
