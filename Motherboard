@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	background-image: url(http://docs.oracle.com/javafx/2/get_started/background.jpg);
+}
+</style>
+    <link rel="stylesheet" type="text/css" href="https://davisyoo.github.io/CSISProjects/ProjectCSS.css">   
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="https://davisyoo.github.io/CSISProjects/Home.html">Home</a></li>
+  <li><a href="https://davisyoo.github.io/CSISProjects/Blog.html">Blog</a></li>
+  <li><a href="https://davisyoo.github.io/CSISProjects/BuildingAComputer.html">Building A Computer</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Parts</a>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="https://davisyoo.github.io/CSISProjects/CPU.html">CPU<br><img src="https://bomgar-bomgar12.netdna-ssl.com/images/avatars/uploads/cpu2.png" style="width:100px;height:100px;"></a>
+      <a href="https://davisyoo.github.io/CSISProjects/GraphicsCard.html">Graphics Card<br><img src="http://cdn.1001freedownloads.com/vector/thumb/66676/PCI_video_card.png" style="width:100px;height:100px;"></a>
+      <a href="https://davisyoo.github.io/CSISProjects/Memory.html">Memory<br><img src="https://openclipart.org/image/2400px/svg_to_png/195804/ram.png" style="width:85px;height:85px;"></a></a>
+	  <a href="https://davisyoo.github.io/CSISProjects/Motherboard.html">Motherboard<br><img src="http://www.clipartlord.com/wp-content/uploads/2014/04/motherboard.png" style="width:80px;height:80px;"></a></a></a>
+	  <a href="https://davisyoo.github.io/CSISProjects/Storage.html">Storage<br><img src="http://www.pd4pic.com/images/head-computer-drive-disk-cartoon-storage-hard.png" style="width:100px;height:100px;"></a></a></a></a>
+	  <a href="https://davisyoo.github.io/CSISProjects/Tower.html">Tower<br><img src="http://www.pd4pic.com/images/tower-computer-server-cpu-processor-box-cartoon.png" style="width:80px;height:100px;"></a></a></a></a>
+	  <a href="https://davisyoo.github.io/CSISProjects/PowerSupply.html">Power Supply<br><img src="http://pics.clipartpng.com/Standard_Computer_Power_Supply_PNG_Clipart-774.png" style="width:100px;height:80px;"></a></a></a></a>
+    </div>
+  </li>
+</ul>
+
+<h2 align="center"><i>Memory</i></h2>
+
+<br>
+
+<div align="center" class="boxed">
+  <p><b>MSI 970 GAMING DDR3 2133 ATX AMD Motherboard</b></p>
+  <a href="https://www.amazon.com/MSI-970-GAMING-DDR3-Motherboard/dp/B00LUY72F6/ref=sr_1_2?s=pc&ie=UTF8&qid=1476067571&sr=1-2&keywords=motherboard">
+<img src="https://asset.msi.com/resize/image/global/product/five_pictures1_3193_20140529170547.png62405b38c58fe0f07fcef2367d8a9ba1/600.png" style="width:400px;height:200px;"></a>
+</div>
+
+<br>
+<br>
+
+<div align="center" class="boxed">
+  <p><b>Gigabyte LGA1151 Intel Z170 ATX DDR4 Motherboards GA-Z170X-Gaming 3</b></p>
+  <a href="https://www.amazon.com/Gigabyte-LGA1151-Intel-Motherboards-GA-Z170X-Gaming/dp/B012N6E996/ref=sr_1_7?s=pc&ie=UTF8&qid=1476067998&sr=1-7&keywords=motherboard">
+<img src="http://bwindia.net/bwfiles/images/MB%204Intel%20GigaByte%20Z170X-Gaming%203%201151%20Socket%20Z170%20CS%201.png" style="width:400px;height:200px;"></a>
+</div>
+
+<br>
+<br>
+
+<div align="center" class="boxed">
+  <p><b>MSI Extreme Gaming Intel X99 LGA 2011 DDR4 USB 3.1 Extended ATX Motherboard</b></p>
+  <a href="https://www.amazon.com/MSI-Extreme-Extended-Motherboard-X99A/dp/B014VITZPM/ref=sr_1_20?s=pc&ie=UTF8&qid=1476067998&sr=1-20&keywords=motherboard">
+<img src="https://ic.tweakimg.net/ext/i/2000639300.png" style="width:400px;height:200px;"></a>
+</div>
+
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+</body>
+</html>
