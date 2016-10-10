@@ -54,19 +54,6 @@ li.dropdown {
     height: 275px;
     background-color: red;
     border: solid 3px black;
+    margin: auto;
 }
 
-#box1 {
-    width: 420px;
-    height: 275px;
-    background-color: red;
-    border: solid 3px black;
-    padding: 10px;
-}
-#box2 {
-    width: 420px;
-    height: 275px;
-    background-color: red;
-    border: solid 3px black;
-    padding: 10px;
-}
