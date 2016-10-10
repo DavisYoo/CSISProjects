@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+	background-image: url(http://docs.oracle.com/javafx/2/get_started/background.jpg);
+}
+</style>
+    <link rel="stylesheet" type="text/css" href="https://davisyoo.github.io/CSISProjects/ProjectCSS.css">   
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="https://davisyoo.github.io/CSISProjects/Home.html">Home</a></li>
+  <li><a href="https://davisyoo.github.io/CSISProjects/Blog.html">Blog</a></li>
+  <li><a href="https://davisyoo.github.io/CSISProjects/BuildingAComputer.html">Building A Computer</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">Parts</a>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="https://davisyoo.github.io/CSISProjects/CPU.html">CPU<br><img src="https://bomgar-bomgar12.netdna-ssl.com/images/avatars/uploads/cpu2.png" style="width:100px;height:100px;"></a>
+      <a href="https://davisyoo.github.io/CSISProjects/GraphicsCard.html">Graphics Card<br><img src="http://cdn.1001freedownloads.com/vector/thumb/66676/PCI_video_card.png" style="width:100px;height:100px;"></a>
+      <a href="https://davisyoo.github.io/CSISProjects/Memory.html">Memory<br><img src="https://openclipart.org/image/2400px/svg_to_png/195804/ram.png" style="width:85px;height:85px;"></a></a>
+	  <a href="https://davisyoo.github.io/CSISProjects/Motherboard.html">Motherboard<br><img src="http://www.clipartlord.com/wp-content/uploads/2014/04/motherboard.png" style="width:80px;height:80px;"></a></a></a>
+	  <a href="https://davisyoo.github.io/CSISProjects/Storage.html">Storage<br><img src="http://www.pd4pic.com/images/head-computer-drive-disk-cartoon-storage-hard.png" style="width:100px;height:100px;"></a></a></a></a>
+	  <a href="https://davisyoo.github.io/CSISProjects/Tower.html">Tower<br><img src="http://www.pd4pic.com/images/tower-computer-server-cpu-processor-box-cartoon.png" style="width:80px;height:100px;"></a></a></a></a>
+	  <a href="https://davisyoo.github.io/CSISProjects/PowerSupply.html">Power Supply<br><img src="http://pics.clipartpng.com/Standard_Computer_Power_Supply_PNG_Clipart-774.png" style="width:100px;height:80px;"></a></a></a></a>
+    </div>
+  </li>
+</ul>
+
+<h2 align="center"><i>Memory</i></h2>
+
+<br>
+
+<div align="center" class="boxed">
+  <p><b>Kingston HyperX Fury ddr3 RAM is fast and affordable</b></p>
+  <a href="https://www.amazon.com/Kingston-HyperX-FURY-1866MHz-DDR3/dp/B00J8E92I0/ref=sr_1_1?s=pc&ie=UTF8&qid=1476066593&sr=1-1&keywords=ram+8gb">
+<img src="http://media.kingston.com/images/products/hx_fury_detail.png" style="width:400px;height:200px;"></a>
+</div>
+
+<br>
+<br>
+
+<div align="center" class="boxed">
+  <p><b>The Corsair Vengeance ddr3 RAM is also an affordable option and has heatsinks that make it look unique</b></p>
+  <a href="https://www.amazon.com/Corsair-Vengeance-1x8GB-Desktop-Memory/dp/B005T63BJM/ref=sr_1_4?s=pc&ie=UTF8&qid=1476067008&sr=1-4&keywords=ram+8gb">
+<img src="http://2.bp.blogspot.com/-7jtg0dkSRe4/Vo1cnKe8YkI/AAAAAAAABXk/YGOi-kIjvzI/s1600/VENG_K_x2b.png" style="width:400px;height:200px;"></a>
+</div>
+
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+</body>
+</html>
