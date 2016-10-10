@@ -50,7 +50,21 @@ li.dropdown {
 .show {display:block;}
 
 .boxed {
-	width: 420px;
+    width: 420px;
+    height: 275px;
+    background-color: red;
+    border: solid 3px black;
+}
+
+#box1 {
+    width: 420px;
+    height: 275px;
+    background-color: red;
+    border: solid 3px black;
+}
+#box2 {
+    float: right;
+    width: 420px;
     height: 275px;
     background-color: red;
     border: solid 3px black;
